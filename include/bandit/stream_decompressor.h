@@ -1,5 +1,5 @@
-#ifndef BANDIT_STREAM_DECOMPRESSOR_HPP
-#define BANDIT_STREAM_DECOMPRESSOR_HPP
+#ifndef BANDIT_STREAM_DECOMPRESSOR_H
+#define BANDIT_STREAM_DECOMPRESSOR_H
 
 #include <vector>
 #include <iostream>
@@ -29,4 +29,4 @@ private:
 
 } // namespace bandit
 
-#endif // BANDIT_STREAM_DECOMPRESSOR_HPP
+#endif // BANDIT_STREAM_DECOMPRESSOR_H

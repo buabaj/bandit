@@ -1,5 +1,8 @@
-#include "bandit/stream_compressor.hpp"
-#include "lz4.h"
+#include <bandit/stream_compressor.h>
+#include <bandit/error.h>
+#include <vector>
+#include <iostream>
+#include <lz4.h>
 
 namespace bandit {
 

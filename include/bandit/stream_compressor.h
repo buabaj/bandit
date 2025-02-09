@@ -1,16 +1,13 @@
-#ifndef BANDIT_STREAM_COMPRESSOR_HPP
-#define BANDIT_STREAM_COMPRESSOR_HPP
+#ifndef BANDIT_STREAM_COMPRESSOR_H
+#define BANDIT_STREAM_COMPRESSOR_H
 
 #include <vector>
 #include <iostream>
 #include <memory>
 #include <stdexcept>
+#include "error.h"
 
 namespace bandit {
-
-class compression_error : public std::runtime_error {
-    using std::runtime_error::runtime_error;
-};
 
 class StreamCompressor {
 public:
@@ -35,4 +32,4 @@ private:
 
 } // namespace bandit
 
-#endif // BANDIT_STREAM_COMPRESSOR_HPP
+#endif // BANDIT_STREAM_COMPRESSOR_H

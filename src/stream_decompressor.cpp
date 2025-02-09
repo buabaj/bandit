@@ -1,5 +1,5 @@
-#include "bandit/stream_decompressor.hpp"
-#include "bandit/error.hpp"
+#include <bandit/stream_decompressor.h>
+#include <bandit/error.h>
 #include <lz4.h>
 
 namespace bandit

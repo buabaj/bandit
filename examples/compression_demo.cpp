@@ -1,5 +1,5 @@
-#include <bandit/stream_compressor.hpp>
-#include <bandit/stream_decompressor.hpp>
+#include <bandit/stream_compressor.h>
+#include <bandit/stream_decompressor.h>
 #include <iostream>
 #include <fstream>
 #include <sstream>
