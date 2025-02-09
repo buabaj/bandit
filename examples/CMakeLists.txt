@@ -1,0 +1,2 @@
+add_executable(compression_demo compression_demo.cpp)
+target_link_libraries(compression_demo PRIVATE bandit)
